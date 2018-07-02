@@ -3,7 +3,9 @@
 
 You and society are invited to the next level of Well Being and enterprise Value by also using offerings such as film *Asha* and coach [aiSaki](https://vinitk.shinyapps.io/aiSaki/).
 
-```
+``` {r echo=FALSE}
   # add a voice persona to introduce coach aiSaki using the following:
-  tags$audio(src = "cut.mp3", type = "audio/mp3", autoplay = NA, controls = NA)
+  # <head> of doc needs to include <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
+  library(shiny)
+  tags$audio(src = "persona-JagjitSingh.wma", type = "audio/wma", autoplay = NA, controls = NA)
 ```

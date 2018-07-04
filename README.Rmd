@@ -1,11 +1,28 @@
+---
+output: 
+  html_document:
+    keep_md: yes
+---
 # Well Being and enterprise Value
 ## by using film *Asha* and coach *aiSaki*
 
 You and society are invited to the next level of Well Being and enterprise Value by also using offerings such as film *Asha* and coach [aiSaki](https://vinitk.shinyapps.io/aiSaki/).
 
 ``` {r echo=FALSE}
-  # add a voice persona to introduce coach aiSaki using the following:
-  # <head> of doc needs to include <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
+  # in RStudio, create new repository project from Github. Then 'Knit to HTML' after turning on
+  # Advanced setting 'Keep Markdown files' on the .Rmd. Then change YAML to the following:
+  #   html_document:
+  #     keep_md: yes
+  # instead of the following:
+  # output: 
+  #   github_document
+  # ref: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content
+  # ref: http://happygitwithr.com/rmd-test-drive.html
+
+  # add a voice persona to introduce coach *aiSaki* using the following:
   library(shiny)
-  tags$audio(src = "persona-JagjitSingh.wma", type = "audio/wma", autoplay = NA, controls = NA)
+  tags$audio(src = "persona-JagjitSingh.mp3", type = "audio/mp3", autoplay = NA, controls = NA)
+  # ![](URL) syntax can be used for linking to film Asha video outside this code chunk. alt:
+  # tags$video(src = "rabbit320.mp4", type = "video/mp4", autoplay = NA, controls = NA)
+    # height, width can be set too as parameters
 ```

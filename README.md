@@ -7,11 +7,19 @@ output:
 ### by using film `Asha`, coach `aiSaki`, and other asset offerings
 
 
+In 2012-Feb, the [author](mailto:yadevinit@gmail.com) committed to harmonized alignment of fund-management fees with extraordinary growth and [Net Present Value](https://en.wikipedia.org/wiki/Net_present_value). By 2015, this [report](http://pfrda.org.in/myauth/admin/showimg.cshtml?ID=682) happened for a national pension-fund regulator. Back in 2012-Feb, the author committed to raised Well Being of a million people. And by 2015, [India Newborn Action Plan](http://nhm.gov.in/india-newborn-action-plan.html) was "India’s committed response to the Global Every Newborn Action Plan (ENAP)." The author was *one* cause in the matter, with no authority, given mandate, or precedent; such is a power available to all human beings. The author wishes that everyone be aware and exercise this power.
+
 You and society are invited to the next level of Well Being and enterprise Value by also using offerings such as film `Asha` and coach `aiSaki`.
 
 * Film `Asha: the Light of Hope` is a short film for newborn longevity (and as a background context for leadership anywhere). Its video link for public viewing will be here by 2018-Aug.
 
-* To Declare a Breakdown in any area of life and create a future that matters, you can use (intelligent-machine) coach `aiSaki` by [clicking here](https://vinitk.shinyapps.io/aiSaki/) from a browser on your mobile device or computer. Following voice persona will soon be integrated with this app:
+* To Declare a Breakdown in any area of life and create a future that matters, you can use (intelligent-machine) coach `aiSaki` by [clicking here](https://vinitk.shinyapps.io/aiSaki/) from a browser on your mobile device or computer. Regarding what's next with `aiSaki` on the technology front:
+
+    + Its source-code repository will be made open source at https://github.com/yadevinit with this [license](./LICENSE).
+
+    + Presently, this app is hosted on http://www.shinyapps.io/. A [JupyterLab Notebook architecture](http://jupyterlab.readthedocs.io/en/stable/user/notebook.html) is being considered to support its future evolution, including unrestricted use of Python modules. Making it into an [R](http://r-project.org/) package and consistent with [OpenCPU](https://www.opencpu.org/) are expected to ease and attract community interfaces and participation.
+
+    + As part of its voice interface, following voice persona will soon be integrated with this app:
 <!--html_preserve--><audio src="persona-JagjitSingh.mp3" type="audio/mp3" autoplay controls></audio><!--/html_preserve-->
 
 * For a fuller invitation to the next level along with a description of `Asha` and `aiSaki` and a case for action, see [Being Well](https://docs.google.com/document/d/1C4MhOxbjH5keOC9nx-6cR4hXQ-ym6or6Nb7bgb4C-Hk/edit?usp=sharing).

@@ -3,12 +3,17 @@ output:
   html_document:
     keep_md: yes
 ---
-# Well Being and enterprise Value
-## by using film *Asha* and coach *aiSaki*
+# Being Well with enterprise Value
+### by using film `Asha`, coach `aiSaki`, and other asset offerings
 
-You and society are invited to the next level of Well Being and enterprise Value by also using offerings such as film *Asha* and coach [aiSaki](https://vinitk.shinyapps.io/aiSaki/).
 
-``` {r echo=FALSE}
+You and society are invited to the next level of Well Being and enterprise Value by also using offerings such as film `Asha` and coach `aiSaki`.
+
+* Film `Asha: the Light of Hope` is a short film for newborn longevity (and as a background context for leadership anywhere). Its video link for public viewing will be here by 2018-Aug.
+
+* To Declare a Breakdown in any area of life and create a future that matters, you can use (intelligent-machine) coach `aiSaki` by [clicking here](https://vinitk.shinyapps.io/aiSaki/) from a browser on your mobile device or computer. Following voice persona will soon be integrated with this app:
+``` {r warning=FALSE, echo=FALSE}
+  # beware: turned off messages such as Warning: package 'shiny' was built under R version 3.4.4
   # in RStudio, create new repository project from Github. Then 'Knit to HTML' after turning on
   # Advanced setting 'Keep Markdown files' on the .Rmd. Then change YAML to the following:
   #   html_document:
@@ -22,7 +27,19 @@ You and society are invited to the next level of Well Being and enterprise Value
   # add a voice persona to introduce coach *aiSaki* using the following:
   library(shiny)
   tags$audio(src = "persona-JagjitSingh.mp3", type = "audio/mp3", autoplay = NA, controls = NA)
+
   # ![](URL) syntax can be used for linking to film Asha video outside this code chunk. alt:
   # tags$video(src = "rabbit320.mp4", type = "video/mp4", autoplay = NA, controls = NA)
     # height, width can be set too as parameters
+  # <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE"
+  #   target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+  #   alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+  # Or, in pure Markdown, but losing the image sizing and border:
+  # [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
+  #   (http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ```
+
+* For a fuller invitation to the next level along with a description of `Asha` and `aiSaki` and a case for action, see [Being Well](https://docs.google.com/document/d/1C4MhOxbjH5keOC9nx-6cR4hXQ-ym6or6Nb7bgb4C-Hk/edit?usp=sharing).
+
+* What wants you is elaborated in [relating with you and film Asha and its community](https://docs.google.com/document/d/1UbqK7qysyUnMIh3GRBerIr-GqLTPM1pJv7FVfpCdIHg/edit?usp=sharing). It includes a link to a model view on how the world could use these assets and what will be offered via this repository; see [Customer Stories](https://docs.google.com/document/d/1UvSGRAsW2NRFPMFVkFeNAhxlySTXRaRAfqUALMnKnZ0/edit?usp=sharing).

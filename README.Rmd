@@ -15,7 +15,7 @@ You and society are invited to the next level of Well Being and enterprise Value
 
 * To Declare a Breakdown in any area of life and create a future that matters, you can use (intelligent-machine) coach `aiSaki` by [clicking here](https://yadevinit.shinyapps.io/aiSaki/) from a browser on your mobile device or computer. Regarding what's next with `aiSaki` on the technology front:
 
-    + Its software can publicly evolve at its [source-code repository](https://github.com/yadevinit/aiSaki) with this [license](../aiSaki/LICENSE).
+    + Its software can publicly evolve at its [source-code repository](https://github.com/yadevinit/aiSaki) with this [license](./LICENSE).
 
     + Presently, this app is hosted using the secure [shinyapps.io by RStudio](http://www.shinyapps.io/). A [JupyterLab Notebook architecture](http://jupyterlab.readthedocs.io/en/stable/user/notebook.html) is being considered to support its future evolution, including unrestricted use of Python (and other language) modules from GitHub. Making it into an [R](http://r-project.org/) package and consistent with [OpenCPU](https://www.opencpu.org/) are expected to ease and attract community interfaces and participation.
 

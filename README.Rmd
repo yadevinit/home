@@ -19,6 +19,12 @@ You and society are invited to the next level of Well Being and enterprise Value
 
     + As part of its voice interface, the following voice persona could be integrated with this app:
 ``` {r warning=FALSE, echo=FALSE}
+  # beware: instead of updating HTML or MD file directly, update this RMD file. Then for ease,
+  # use RStudio to Pull from GitHub repository, change the RMD, run Knit to HTML, confirm diffs
+  # are ok, Commit changed files after Staging, Push to GitHub repository, and finally, confirm
+  # this README shows up and offers links as wanted.
+  # From RStudio, Pull, Push, etc., can be done from its Git version control menu.
+
   # beware: turned off messages such as Warning: package 'shiny' was built under R version 3.4.4
   # in RStudio, create new repository project from Github. Then 'Knit to HTML' after turning on
   # Advanced setting 'Keep Markdown files' on the .Rmd. Then change YAML to the following:

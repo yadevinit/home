@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -85,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,22 +93,81 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -134,13 +190,12 @@ $(document).ready(function () {
 <li><p>Short film <a href="https://www.youtube.com/watch?v=97ldaTXYRks">Asha: the Light of Hope</a> invites you and society to the next level of newborn longevity. It sets a background for generating leadership anywhere. Use it, share it, and participate in co-creating a new realm of society Being Well.</p></li>
 <li><p><a href="https://yadevinit.shinyapps.io/aiSaki/">Coach aiSaki</a> gets you to Declare a Breakdown in any area of life and create a future that matters. You can use this intelligent-machine coach from a browser on your mobile device or computer. Regarding what’s next with <code>aiSaki</code> on the technology front:</p>
 <ul>
-<li><p>You can publicly evolve its software at its <a href="https://github.com/yadevinit/aiSaki">source-code repository</a> with this <a href="./LICENSE">license</a>.</p></li>
-<li><p>Presently, this app is hosted using the secure <a href="http://www.shinyapps.io/">shinyapps.io by RStudio</a>. A <a href="http://jupyterlab.readthedocs.io/en/stable/user/notebook.html">JupyterLab Notebook architecture</a> is being considered to support its future evolution, including unrestricted use of Python (and other language) modules from GitHub. Making it into an <a href="http://r-project.org/">R</a> package and consistent with <a href="https://www.opencpu.org/">OpenCPU</a> are expected to ease and attract community interfaces and participation.</p></li>
-<li><p>As part of its voice interface, the following voice persona can be integrated with this app: <audio src="persona-JagjitSingh.mp3" type="audio/mp3" autoplay controls></audio></p></li>
+<li><p>You can evolve its software at its <a href="https://github.com/yadevinit/aiSaki">source-code repository</a>. Presently, this app is hosted using the secure <a href="http://www.shinyapps.io/">shinyapps.io by RStudio</a>. A <a href="http://jupyterlab.readthedocs.io/en/stable/user/notebook.html">JupyterLab Notebook architecture</a> could be considered to support its future evolution, including unrestricted use of Python (and other language) modules from GitHub. Making it into an <a href="http://r-project.org/">R</a> package and consistent with <a href="https://www.opencpu.org/">OpenCPU</a> could ease and attract community interfaces and participation.</p></li>
+<li><p>As part of its voice interface, the following voice persona could be integrated with this app: <audio src="persona-JagjitSingh.mp3" type="audio/mp3" autoplay controls></audio></p></li>
 </ul></li>
-<li><p>For a fuller invitation to the next level along with a description of <code>Asha</code> and <code>aiSaki</code> and a case for action, see <a href="https://docs.google.com/document/d/1C4MhOxbjH5keOC9nx-6cR4hXQ-ym6or6Nb7bgb4C-Hk/edit?usp=sharing">Being Well</a>.</p></li>
-<li><p>What wants you is elaborated in <a href="https://docs.google.com/document/d/1UbqK7qysyUnMIh3GRBerIr-GqLTPM1pJv7FVfpCdIHg/edit?usp=sharing">relating with you and film Asha and its community</a>. It includes a link to a model view on how the world could use these assets and what will be offered via this repository of asset offerings; see <a href="https://docs.google.com/document/d/1UvSGRAsW2NRFPMFVkFeNAhxlySTXRaRAfqUALMnKnZ0/edit?usp=sharing">Customer Stories</a>.</p></li>
+<li><p><a href="https://github.com/yadevinit/JEE/blob/master/README.md">JEE</a> has outputs from a series of transformative projects around the JEE (Joint Entrance Examinations), through which a million students compete annually for joining India’s premier technology and engineering institutions.</p></li>
 </ul>
+<p>For a fuller invitation to the next level along with a description of <code>Asha</code> and <code>aiSaki</code> and a case for action, see <a href="https://docs.google.com/document/d/1C4MhOxbjH5keOC9nx-6cR4hXQ-ym6or6Nb7bgb4C-Hk/edit?usp=sharing">Being Well</a>. What wants you is elaborated in <a href="https://docs.google.com/document/d/1UbqK7qysyUnMIh3GRBerIr-GqLTPM1pJv7FVfpCdIHg/edit?usp=sharing">relating with you and film Asha and its community</a>. It includes a link to a model view on how the world could use these assets and what will be offered via this repository of asset offerings; see <a href="https://docs.google.com/document/d/1UvSGRAsW2NRFPMFVkFeNAhxlySTXRaRAfqUALMnKnZ0/edit?usp=sharing">Customer Stories</a>.</p>
 </div>
 </div>
 
@@ -161,6 +216,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -15,11 +15,9 @@ You and society are invited to the next level of Well Being and enterprise Value
 
 * [Coach aiSaki](https://yadevinit.shinyapps.io/aiSaki/) gets you to Declare a Breakdown in any area of life and create a future that matters. You can use this intelligent-machine coach from a browser on your mobile device or computer. Regarding what's next with `aiSaki` on the technology front:
 
-    + You can evolve its software at its [source-code repository](https://github.com/yadevinit/aiSaki).
+    + You can evolve its software at its [source-code repository](https://github.com/yadevinit/aiSaki). Presently, this app is hosted using the secure [shinyapps.io by RStudio](http://www.shinyapps.io/). A [JupyterLab Notebook architecture](http://jupyterlab.readthedocs.io/en/stable/user/notebook.html) could be considered to support its future evolution, including unrestricted use of Python (and other language) modules from GitHub. Making it into an [R](http://r-project.org/) package and consistent with [OpenCPU](https://www.opencpu.org/) could ease and attract community interfaces and participation.
 
-    + Presently, this app is hosted using the secure [shinyapps.io by RStudio](http://www.shinyapps.io/). A [JupyterLab Notebook architecture](http://jupyterlab.readthedocs.io/en/stable/user/notebook.html) is being considered to support its future evolution, including unrestricted use of Python (and other language) modules from GitHub. Making it into an [R](http://r-project.org/) package and consistent with [OpenCPU](https://www.opencpu.org/) are expected to ease and attract community interfaces and participation.
-
-    + As part of its voice interface, the following voice persona can be integrated with this app:
+    + As part of its voice interface, the following voice persona could be integrated with this app:
 ``` {r warning=FALSE, echo=FALSE}
   # beware: turned off messages such as Warning: package 'shiny' was built under R version 3.4.4
   # in RStudio, create new repository project from Github. Then 'Knit to HTML' after turning on
@@ -48,6 +46,7 @@ You and society are invited to the next level of Well Being and enterprise Value
 
 ```
 
-* [JEE](https://github.com/yadevinit/JEE/blob/master/README.md) has outputs from a series of transformative projects around the JEE (Joint Entrance Examinations), through which a million students compete annually for joining India's premier technology and engineering institutions. TBD Alt rel link: [JEE](/JEE/README.md).
+* [JEE](https://github.com/yadevinit/JEE/blob/master/README.md) has outputs from a series of transformative projects around the JEE (Joint Entrance Examinations), through which a million students compete annually for joining India's premier technology and engineering institutions.
+
 
 For a fuller invitation to the next level along with a description of `Asha` and `aiSaki` and a case for action, see [Being Well](https://docs.google.com/document/d/1C4MhOxbjH5keOC9nx-6cR4hXQ-ym6or6Nb7bgb4C-Hk/edit?usp=sharing). What wants you is elaborated in [relating with you and film Asha and its community](https://docs.google.com/document/d/1UbqK7qysyUnMIh3GRBerIr-GqLTPM1pJv7FVfpCdIHg/edit?usp=sharing). It includes a link to a model view on how the world could use these assets and what will be offered via this repository of asset offerings; see [Customer Stories](https://docs.google.com/document/d/1UvSGRAsW2NRFPMFVkFeNAhxlySTXRaRAfqUALMnKnZ0/edit?usp=sharing).
